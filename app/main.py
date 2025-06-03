@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 # Import your existing logic function
-from app import model_logic  # make sure your function is importable
+from model_logic import recommend_best_slot  # make sure your function is importable
 
 app = FastAPI()
 
