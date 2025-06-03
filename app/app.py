@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
+
 # Import your existing logic function
 from model_logic import recommend_best_slot  # make sure your function is importable
 
