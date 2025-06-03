@@ -1,0 +1,14 @@
+# requirements.txt
+numpy
+pandas
+scikit-learn
+SQLAlchemy
+PyMySQL
+mysql-connector-python  # You only need one: PyMySQL OR mysql-connector-python for SQLAlchemy's MySQL dialect. PyMySQL is common.
+                        # If using mysql+pymysql://... then PyMySQL is needed.
+                        # If using mysql+mysqlconnector://... then mysql-connector-python is needed.
+                        # Let's stick with PyMySQL as it was in your original Flask setup.
+fastapi
+uvicorn[standard]       # Use [standard] for performance extras like websockets, or just 'uvicorn'
+pydantic                # For data validation (FastAPI uses it heavily)
+# gunicorn (optional, if you want to use gunicorn to manage uvicorn workers, see Procfile option 2)
