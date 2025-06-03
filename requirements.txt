@@ -4,6 +4,6 @@ scikit-learn
 SQLAlchemy
 PyMySQL
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
 gunicorn
