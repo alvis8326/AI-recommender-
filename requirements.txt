@@ -11,4 +11,4 @@ mysql-connector-python  # You only need one: PyMySQL OR mysql-connector-python f
 fastapi
 uvicorn[standard]       # Use [standard] for performance extras like websockets, or just 'uvicorn'
 pydantic                # For data validation (FastAPI uses it heavily)
-# gunicorn (optional, if you want to use gunicorn to manage uvicorn workers, see Procfile option 2)
+gunicorn #(optional, if you want to use gunicorn to manage uvicorn workers, see Procfile option 2)
